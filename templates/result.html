@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form action="/result">
+
+    <table border="1">
+        {% for item in task_list %}
+        <tr>
+            <td>{{item[""]}}</td>
+            <td>{{item[""]}}</td>
+            <td>{{item[""]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</form>
+
+{% endblock %}
