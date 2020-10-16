@@ -4,16 +4,22 @@
 <div class="container">
     <form action="/result">
 
-        <table border="1">
-            {% for item in task_list %}
+        <table>
+            <!-- {% for item in task_list %} -->
+            <!-- {% endfor %} -->
             <tr>
-                <td>{{item[""]}}</td>
-                <td>{{item[""]}}</td>
-                <td>{{item[""]}}</td>
+                <th>質問</th>
+                <th>現在</th>
+                <th>過去</th>
             </tr>
-            {% endfor %}
+            <tr>
+                <td>Q1</td>
+                <td>２</td>
+                <td>３</td>
+            </tr>
         </table>
 
     </form>
 </div>
+
 {% endblock %}
