@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 
-
-<form action="/login" method="POST" class="login">
-    名前：<input type="text" name="name" >
-    パスワード：<input type="password" name="password">
-    <input type="submit" name="save" value="ログイン">
-</form>
+<div class="container">
+    <form action="/login" method="POST">
+        名前<br><input type="text" name="name" ><br>
+        パスワード<br><input type="password" name="password"><br>
+        <input type="submit" class="login_btn" name="save" value="ログイン">
+    </form>
+</div>
 
 
 {% endblock %}
