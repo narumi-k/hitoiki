@@ -1,19 +1,22 @@
 {% extends 'base.html' %}
 {% block content %}
-<form action="/question4">
 
-    <h4>4/10問中</h4>
+<div class="container">
+    <form action="/question4">
 
-    <p>Q4<br>やってみたい事はありますか？</p>
+        <p>4/10問中</p>
 
-    <button>１</button>
-    <button>２</button>
-    <button>３</button>
-    <button>４</button>
-    <button>５</button>
+        <p>Q4<br>やってみたい事はありますか？</p>
 
-    <input type="submit" class="next" value="→">
+        <button>１</button>
+        <button>２</button>
+        <button>３</button>
+        <button>４</button>
+        <button>５</button>
+        <br>
+        <input type="submit" class="next" value="→">
 
-</form>
+    </form>
+</div>
 
 {% endblock %}

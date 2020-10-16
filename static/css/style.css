@@ -10,3 +10,16 @@
     margin-left: 100px;
     margin-top: 15px;
 } 
+
+.next_btn {
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+p {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+
