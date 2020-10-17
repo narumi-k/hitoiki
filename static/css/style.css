@@ -27,6 +27,7 @@ table {
     margin: 0 auto;
     background-color: white;
 }
+
 table th,table td {
     text-align: center;
     border: 1px solid black;
