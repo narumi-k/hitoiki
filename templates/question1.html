@@ -2,19 +2,19 @@
 {% block content %}
 
 <div class="container">
-    <form action="/question1">
+    <form action="/question1" method="POST">
 
         <p>1/10問中</p>
 
         <p>Q１<br>最近Happyな事はありましたか？</p>
 
-        <button>１</button>
-        <button>２</button>
-        <button>３</button>
-        <button>４</button>
-        <button>５</button>
+        <button value="1" name="btn1">１</button>
+        <button value="2" name="btn2">２</button>
+        <button value="3" name="btn3">３</button>
+        <button value="4" name="btn4">４</button>
+        <button value="5" name="btn5">５</button>
         <br>
-        <input type="submit" class="next_btn" value="→">
+        <input type ="button" class="next_btn" value="→" onclick="location.href='./question2.html'">
 
     </form>
 </div>
