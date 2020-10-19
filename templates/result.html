@@ -2,51 +2,69 @@
 {% block content %}
 
 <div class="container">
+
     <form action="/result">
 
         <table>
             <tr>
                 <th>質問</th>
-                <th>現在</th>
-                <th>過去</th>
+                <th>{{time[0][0]}}</th>
+                <th>{{time[1][0]}}</th>
             </tr>
-
-            now一{{list1[0][0]}}
-            past一{{list1[1][0]}}
-            <br>
-            now二{{list2[0][0]}}
-            past二{{list2[1][0]}}
-            <br>
-            now三{{list3[0][0]}}
-            past三{{list3[1][0]}}
-            <br>
-            now四{{list4[0][0]}}
-            past四{{list4[1][0]}}
-            <br>
-            now五{{list5[0][0]}}
-            past五{{list5[1][0]}}
-            <br>
-            now六{{list6[0][0]}}
-            past六{{list6[1][0]}}
-            <br>
-            now七{{list7[0][0]}}
-            past七{{list7[1][0]}}
-            <br>
-            now八{{list8[0][0]}}
-            past八{{list8[1][0]}}
-            <br>
-            now九{{list9[0][0]}}
-            past九{{list9[1][0]}}
-            <br>
-            now十{{list10[0][0]}}
-            past十{{list10[1][0]}}
-            <br>
-            {{time[0][0]}}
-            <br>
-            {{time[1][0]}}
+            <tr>
+                <td class="result_q">Q1、最近Happyを感じましたか？</td>
+                <td>{{list1[0][0]}}</td>
+                <td>{{list1[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q2、熱中できるものはありますか？</td>
+                <td>{{list2[0][0]}}</td>
+                <td>{{list2[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q3、足りないものはありますか？</td>
+                <td>{{list3[0][0]}}</td>
+                <td>{{list3[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q4、やってみたい事はありますか？</td>
+                <td>{{list4[0][0]}}</td>
+                <td>{{list4[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q5、夢はありますか？</td>
+                <td>{{list5[0][0]}}</td>
+                <td>{{list5[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q6、自分のことが好きですか？</td>
+                <td>{{list6[0][0]}}</td>
+                <td>{{list6[1][0]}}</td>
+            </tr>
+            <tr>    
+                <td class="result_q">Q7、自分のことを思ってくれる人はいますか？</td>
+                <td>{{list7[0][0]}}</td>
+                <td>{{list7[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q8、自分の人生をどのくらいコントロールできていまいすか？</td>
+                <td>{{list8[0][0]}}</td>
+                <td>{{list8[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q9、小さいときの自分が今の自分を見て「カッコイイ」と思いますか？</td>
+                <td>{{list9[0][0]}}</td>
+                <td>{{list9[1][0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q10、明日死んだら、後悔しますか？</td>
+                <td>{{list10[0][0]}}</td>
+                <td>{{list10[1][0]}}</td>
+            </tr>
         </table>
 
     </form>
+    
 </div>
 
 {% endblock %}
