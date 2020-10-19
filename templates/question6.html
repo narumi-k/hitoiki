@@ -2,34 +2,42 @@
 {% block content %}
 <div class="container">
 
-    <p>6/10問中</p>
-
-    <p>Q6<br>自分のことが好きですか？</p>
+    <p class="title">6/10問中</p>
+	<p class="title">Q6、自分のことが好きですか？</p>
 
     <form action="/six" method="POST" enctype="multipart/form-data">
-		<div>
-			<label for="r1">1：</label>
-			<input type="radio" id="r1" name="radio" value="1">
+		<div class="choice">
+			<li class="radio_list">
+				<p>嫌い</p>
+				<label for="r1">1</label>
+				<input type="radio" id="r1" name="radio" value="1">
+			</li>
+
+			<li class="radio_list">
+				<p>どちらかといえば嫌い</p>
+				<label for="r2">2</label>
+				<input type="radio" id="r2" name="radio" value="2">
+			</li>
+
+			<li class="radio_list">
+				<p>どちらともいえない</p>
+				<label for="r3">3</label>
+				<input type="radio" id="r3" name="radio" value="3">
+			</li>
+
+			<li class="radio_list">
+				<p>どちらかといえば好き</p>
+				<label for="r4">4</label>
+				<input type="radio" id="r4" name="radio" value="4">
+			</li>
+
+			<li class="radio_list">
+				<p>好き</p>
+				<label for="r5">5</label>
+				<input type="radio" id="r5" name="radio" value="5">
+			</li>
 		</div>
-		<div>
-			<label for="r2">2：</label>
-			<input type="radio" id="r2" name="radio" value="2">
-		</div>
-		<div>
-			<label for="r3">3：</label>
-			<input type="radio" id="r3" name="radio" value="3">
-		</div>
-		<div>
-			<label for="r4">4：</label>
-			<input type="radio" id="r4" name="radio" value="4">
-		</div>
-		<div>
-			<label for="r5">5：</label>
-			<input type="radio" id="r5" name="radio" value="5">
-		</div>
-		<div>
             <input type="submit" class="next" value="→">
-		</div>
 	</form>
 	
 </div>
