@@ -1,7 +1,6 @@
 .container {
     padding: 200px;
     text-align: center;
-    background-image: url(../images/bolivia-1802042_1920.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: repeat-y;
