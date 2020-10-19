@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
 
-    <p>3/10問中</p>
+<div class="container">
 
-    <p>Q3<br>足りないものはありますか？</p>
+    <p>3/10問中</p>
+	<p>Q3<br>足りないものはありますか？</p>
 
     <form action="/three" method="POST" enctype="multipart/form-data">
 		<div>
@@ -29,6 +30,8 @@
 		<div>
             <input type="submit" class="next" value="→">
 		</div>
-</form>
+	</form>
+	
+</div>
 
 {% endblock %}

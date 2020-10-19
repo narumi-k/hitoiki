@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
+
+<div class="container">
+
     <p>4/10問中</p>
 
     <p>Q4<br>やってみたい事はありますか？</p>
@@ -16,7 +19,7 @@
 		<div>
 			<label for="r3">3：</label>
 			<input type="radio" id="r3" name="radio" value="3">
-		</div>
+		</div> 
 		<div>
 			<label for="r4">4：</label>
 			<input type="radio" id="r4" name="radio" value="4">
@@ -28,6 +31,8 @@
 		<div>
             <input type="submit" class="next" value="→">
 		</div>
-</form>
+	</form>
+	
+</div>
 
 {% endblock %}
