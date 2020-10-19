@@ -1,22 +1,33 @@
 {% extends 'base.html' %}
 {% block content %}
+    <p>4/10問中</p>
 
-<div class="container">
-    <form action="/question4">
+    <p>Q4<br>やってみたい事はありますか？</p>
 
-        <p>4/10問中</p>
-
-        <p>Q4<br>やってみたい事はありますか？</p>
-
-        <button>１</button>
-        <button>２</button>
-        <button>３</button>
-        <button>４</button>
-        <button>５</button>
-        <br>
-        <input type="submit" class="next" value="→">
-
-    </form>
-</div>
+    <form action="/four" method="POST" enctype="multipart/form-data">
+		<div>
+			<label for="r1">1：</label>
+			<input type="radio" id="r1" name="radio" value="1">
+		</div>
+		<div>
+			<label for="r2">2：</label>
+			<input type="radio" id="r2" name="radio" value="2">
+		</div>
+		<div>
+			<label for="r3">3：</label>
+			<input type="radio" id="r3" name="radio" value="3">
+		</div>
+		<div>
+			<label for="r4">4：</label>
+			<input type="radio" id="r4" name="radio" value="4">
+		</div>
+		<div>
+			<label for="r5">5：</label>
+			<input type="radio" id="r5" name="radio" value="5">
+		</div>
+		<div>
+            <input type="submit" class="next" value="→">
+		</div>
+</form>
 
 {% endblock %}
