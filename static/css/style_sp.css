@@ -1,0 +1,64 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-image: url("../images/bolivia-1802042_1920.jpg");
+}
+
+.login_btn,.regist_btn,.first_btn,.logout_btn {
+    text-align: center;
+    margin-top: 15px;
+} 
+
+.next {
+    margin-top: 15px;
+}
+
+.title {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.radio_list p {
+    font-size: 10px;
+    width: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+}
+
+table th, table td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.result_q {
+    text-align: left;
+}
+
+.choice {
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio_list {
+    list-style: none;
+}
+
+.sub_container {
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
