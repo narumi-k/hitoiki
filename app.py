@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 app.secret_key = 'sunabaco'
 
-@app.route('/',methods=["GET", "POST"])
+@app.route('/',methods=["GET","POST"])
 def register():
     if request.method == "GET":
         if 'user_id' in session :
@@ -245,17 +245,10 @@ def dbtest():
     return render_template("result.html",list1=list1, list2=list2, list3=list3 ,list4=list4, list5=list5, list6=list6, list7=list7, list8=list8,list9=list9, list10=list10, time=time)
 
 @app.route("/logout")
-
-
-
-
 def logout():
-
     session.pop('user_id',None)
     # ログアウト後はログインページにリダイレクトさせる
     return redirect("/")
-
-
 
 
 if __name__ == "__main__":
