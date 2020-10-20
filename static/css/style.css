@@ -7,8 +7,8 @@
     background-image: url("../images/bolivia-1802042_1920.jpg");
 }
 
-.login_btn,.regist_btn {
-    margin-left: 100px;
+.login_btn,.regist_btn,.first_btn,.logout_btn {
+    text-align: center;
     margin-top: 15px;
 } 
 
@@ -47,4 +47,11 @@ table th, table td {
 
 .radio_list {
     list-style: none;
+}
+
+.sub_container {
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
