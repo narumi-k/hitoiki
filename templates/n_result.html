@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+
+    <form action="/result">
+
+        <table>
+            <tr>
+                <th>質問</th>
+                <th>{{n_time[0]}}</th>
+            </tr>
+            <tr>
+                <td class="result_q">Q1、最近Happyを感じましたか？</td>
+                <td>{{n_list1[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q2、熱中できるものはありますか？</td>
+                <td>{{n_list2[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q3、足りないものはありますか？</td>
+                <td>{{n_list3[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q4、やってみたい事はありますか？</td>
+                <td>{{n_list4[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q5、夢はありますか？</td>
+                <td>{{n_list5[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q6、自分のことが好きですか？</td>
+                <td>{{n_list6[0]}}</td>
+            </tr>
+            <tr>    
+                <td class="result_q">Q7、自分のことを思ってくれる人はいますか？</td>
+                <td>{{n_list7[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q8、自分の人生をどのくらいコントロールできていまいすか？</td>
+                <td>{{n_list8[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q9、小さいときの自分が今の自分を見て「カッコイイ」と思いますか？</td>
+                <td>{{n_list9[0]}}</td>
+            </tr>
+            <tr>
+                <td class="result_q">Q10、明日死んだら、後悔しますか？</td>
+                <td>{{n_list10[0]}}</td>
+            </tr>
+        </table>
+
+    </form>
+
+    <input type="button" class="logout_btn" value="ログアウト" onclick="location.href='/logout'">
+
+</div>
+
+{% endblock %}
