@@ -21,7 +21,7 @@ def register():
         c.execute("insert into user values(null,?,?)", (name,password))
         conn.commit()
         conn.close()
-        return redirect('/login')
+        return redirect('/n_login')
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
