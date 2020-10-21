@@ -83,3 +83,12 @@ table th, table td {
 .a5 {
     padding-bottom: 30px;
 }
+
+.result_title {
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 15px;
+}
