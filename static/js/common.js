@@ -1,7 +1,7 @@
 
 $(function () {
 
-    var num = Math.ceil(3 * Math.random());
-	$('div.container').addClass('background' + num); 
+    var num = Math.ceil(8 * Math.random());
+	$('div.no_padding').addClass('background' + num); 
 
 })
