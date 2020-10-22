@@ -7,6 +7,10 @@
     margin-top: 150px;
 }
 
+.no_padding {
+    margin-top: 10px;
+}
+
 .login_btn,.regist_btn,.first_btn,.logout_btn {
     text-align: center;
     margin-top: 15px;
@@ -35,7 +39,13 @@ table {
     background-color: white;
 }
 
-table th, table td {
+table th {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+table td {
     text-align: center;
     border: 1px solid black;
 }
@@ -64,24 +74,12 @@ table th, table td {
     padding-bottom: 10px;
 }
 
-.a1 {
+.a1, .a3, .a5 {
     padding-bottom: 30px;
 }
 
-.a2 {
+.a2, .a4 {
     padding-bottom: 15px;
-}
-
-.a3 {
-    padding-bottom: 30px;
-}
-
-.a4 {
-    padding-bottom: 15px;
-}
-
-.a5 {
-    padding-bottom: 30px;
 }
 
 .result_title {
@@ -91,4 +89,8 @@ table th, table td {
     border: 1px solid black;
     font-size: 20px;
     padding: 5px 15px;
+}
+
+.comment {
+    color: red;
 }
