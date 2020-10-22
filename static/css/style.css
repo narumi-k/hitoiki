@@ -4,7 +4,6 @@
     background-size: contain;
     background-size: cover;
     background-repeat: repeat-y;
-    background-image: url("../images/bolivia-1802042_1920.jpg");
 }
 
 .login_btn,.regist_btn,.first_btn,.logout_btn {
@@ -69,3 +68,14 @@ table th, table td {
     color: red;
 }
 
+.background1 {
+    background: url("../images/forest-5179110_1920.jpg");
+}
+
+.background2 {
+    background: url("../images/japanese-cherry-trees-3063992_1920.jpg");
+}
+
+.background3 {
+    background: url("../images/bolivia-1802042_1920.jpg");
+}
